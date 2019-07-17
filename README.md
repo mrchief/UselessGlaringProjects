@@ -1,2 +1,0 @@
-# UselessGlaringProjects
-Created with CodeSandbox

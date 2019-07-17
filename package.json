@@ -1,0 +1,21 @@
+{
+  "name": "uselessglaringprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "@babel/core": "7.5.4",
+    "@babel/parser": "7.5.0",
+    "babel-inline-import-loader": "0.1.0",
+    "babel-loader": "8.0.6",
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.6"
+  },
+  "keywords": []
+}
