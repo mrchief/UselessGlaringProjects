@@ -1,7 +1,12 @@
-import BabelInlineImportHelper from './helper'
-
-export default function({ types: t }) {
-  class BabelInlineImport {
-    constructor() {}
+module.exports = function parser({ types: t }) {
+  return {
+    name: 'packageDefinitionParser',
+    visitor: {
+      ExportNamedDeclaration: {
+        enter(path) {
+          console.log(path)
+        },
+      },
+    },
   }
 }
