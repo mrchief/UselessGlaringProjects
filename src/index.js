@@ -1,3 +1,7 @@
-const layout = require('./pkg')
+import BabelInlineImportHelper from './helper'
 
-console.log(layout)
+export default function({ types: t }) {
+  class BabelInlineImport {
+    constructor() {}
+  }
+}
