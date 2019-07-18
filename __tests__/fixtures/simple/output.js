@@ -1,4 +1,4 @@
-module.exports = {
+export const SimpleLayout = {
   presentation: {
     name: 'Container',
     children: [],
