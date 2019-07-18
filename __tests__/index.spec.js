@@ -1,5 +1,5 @@
-const plugin = require('..')
-const pluginTester = require('babel-plugin-tester')
+import pluginTester from 'babel-plugin-tester'
+import plugin from '../src'
 
 pluginTester({
   plugin,
@@ -7,8 +7,8 @@ pluginTester({
   filename: __filename,
   tests: {
     'transforms the layout statement into a JSON with the intended content': {
-      fixture: 'fixtures/simple/layout.js',
-      outputFixture: 'fixtures/simple/output.json',
+      fixture: 'fixtures/simple/layout.jsx',
+      outputFixture: 'fixtures/simple/output.js',
     },
   },
 })
